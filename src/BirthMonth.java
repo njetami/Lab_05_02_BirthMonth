@@ -1,5 +1,14 @@
-public class BirthMonth {
+public class BirthMonth
+{
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+       int birthMonth =20;
+
+       if(birthMonth<1);
+       if(birthMonth>12);
+        {
+            System.out.println("You entered an incorrect Month value " + birthMonth);
+        }
+
+
     }
 }
